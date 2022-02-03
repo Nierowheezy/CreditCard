@@ -1,6 +1,6 @@
 Credit Card
 
-![](src/assets/creditcard.png)
+![](src/assets/creditcard.JPG)
 
 # Getting Started with Create React App
 
