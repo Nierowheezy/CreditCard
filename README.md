@@ -1,4 +1,4 @@
-![alt text]('./src/images/creditcard.PNG')
+![](src/images/creditcard.png) ![](src/images/creditcard.png)
 
 # Getting Started with Create React App
 
