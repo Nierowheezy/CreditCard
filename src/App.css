@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  /* font-family: "sans-serif; */
+}
+
+body {
+  /* min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: #eee;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.split__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* #form {
+  background: #fff;
+  max-width: 500px;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 40px #545454e8;
+  position: relative;
+} */
+
+#form input,
+#form select {
+  margin: 1rem 0;
+  padding: 0.95rem 1.2rem;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  width: 100%;
+  background-color: #efefef;
+}
+
+#form h4 {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.mt {
+  margin-top: 4rem;
+}
+.top-mt {
+  margin-top: 8rem;
+}
+
+.botoom-mt {
+  margin-top: 1rem;
+}
+
+#form .input-container {
+  position: relative;
+  font-size: 1rem;
+  color: #333;
+}
+
+#form .input-grp {
+  display: grid;
+  grid-template-columns: 4fr 4fr;
+  grid-gap: 1.5rem;
+  width: 520px;
+}
+
+#form button {
+  width: 100%;
+  padding: 1.2rem 0.5rem;
+  margin-top: 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #285bcffa;
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  cursor: pointer;
+  position: relative;
+  z-index: 9;
+}
+
+#form button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: #3b2dd2fa;
+  z-index: -1;
+}
+
+#form button:hover:before {
+  width: 100%;
+  transition: 0.2s all;
+}
+
+.input-container-main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-line {
+  background-color: gray;
+  opacity: 0.2;
+}
+
+@keyframes fadeIn {
+  from {
+    top: -150px;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

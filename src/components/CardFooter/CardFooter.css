@@ -1,0 +1,12 @@
+.card-footer-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: 25px 0px;
+  font-weight: bold;
+}
+
+.card-footer-container-content h2 {
+  padding: 10px;
+  font-family: sans-serif;
+}

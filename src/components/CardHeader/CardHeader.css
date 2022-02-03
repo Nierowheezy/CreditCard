@@ -1,0 +1,42 @@
+.card-header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.card-header-container-left {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.card-header-container-left h2 {
+  margin-bottom: 8px;
+  font-family: sans-serif;
+}
+
+.card-header-container-right {
+  display: flex;
+  justify-content: center;
+}
+
+.card-header-container-right img {
+  margin-right: 2rem;
+}
+
+.visa {
+  width: 50px;
+  height: 30px;
+}
+
+.discover {
+  width: 50px;
+  height: 30px;
+}
+
+.paypal {
+  width: 50px;
+  height: 30px;
+}
